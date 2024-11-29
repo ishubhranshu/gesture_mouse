@@ -10,9 +10,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Gesture Controls](#gesture-controls)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
