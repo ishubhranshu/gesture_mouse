@@ -1,53 +1,48 @@
-# Hand Gesture Recognition System
+# Hand Gesture Control: Real-Time Mouse and Scroll Controller
 
 ![Gesture UI Mapping](images/gesture_ui_mapping.png)
 
 ## Table of Contents
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Features](#features)
-- [Gestures and Actions](#gestures-and-actions)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Requirements](#requirements)
-- [License](#license)
+- [Gesture Controls](#gesture-controls)
 - [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-## Overview
+## Introduction
 
-The **Hand Gesture Recognition System** is a real-time application that utilizes your webcam to detect hand gestures and perform corresponding UI actions on your computer. By leveraging **MediaPipe** for hand tracking, **TensorFlow** for gesture classification, and **PyAutoGUI** for automating UI interactions, this system offers an intuitive, hands-free interface for seamless computer control.
+Welcome to **Hand Gesture Control**, a real-time hand gesture recognition system that allows you to control your computer's mouse and scrolling functionalities using simple hand gestures. Leveraging **MediaPipe** for landmark detection, **TensorFlow** for gesture classification, and **PyAutoGUI** for automating mouse and keyboard actions, this project provides an intuitive and seamless way to interact with your computer without the need for traditional input devices.
 
 ## Features
 
-- **Real-Time Gesture Recognition**: Detects and interprets hand gestures instantly using your webcam.
-- **Smooth Cursor Movement**: Moves the mouse cursor fluidly based on hand movements, ensuring precise control.
-- **Automated UI Actions**: Executes actions like clicking, scrolling, and opening Task View with specific gestures.
-- **Smooth Scrolling**: Implements continuous and responsive scrolling actions for enhanced navigation.
-- **Cross-Platform Support**: Compatible with Windows, macOS, and Linux (with appropriate key combinations).
+- **Real-Time Gesture Recognition**: Detects and classifies hand gestures in real-time using your webcam.
+- **Mouse Movement Control**: Move the mouse cursor smoothly across the screen based on hand movements.
+- **Click Actions**: Perform mouse clicks with specific gestures.
+- **Smooth Scrolling**: Scroll up and down smoothly using designated gestures.
+- **Task View Activation**: Trigger system-level actions like opening Task View with gestures.
+- **Visual Feedback**: Displays predicted gestures and current actions on the video feed for better user awareness.
+- **Cross-Platform Support**: Compatible with Windows, macOS, and Linux operating systems.
 
-## Gestures and Actions
+## Demo
 
-![Gesture UI Mapping](images/gesture_ui_mapping.png)
+![Demo GIF](images/demo.gif)
 
-| Gesture | UI Action |
-|---------|-----------|
-| **Gesture 0** | Open Task View (`Windows + Tab`) |
-| **Gesture 1** | Perform Mouse Click |
-| **Gesture 2** | Move Mouse Cursor |
-| **Gesture 3** | Scroll Up |
-| **Gesture 4** | Scroll Down |
-
-*Refer to the image above for a visual representation of each gesture and its corresponding UI action.*
+*Figure: Demonstration of hand gestures controlling the mouse and scrolling actions.*
 
 ## Installation
 
 ### Prerequisites
 
-- **Python 3.7 or higher** installed on your system.
+- **Python 3.7 or higher**: Ensure you have Python installed. You can download it from [here](https://www.python.org/downloads/).
+- **Webcam**: A functional webcam for capturing hand gestures.
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hand-gesture-recognition.git
-cd hand-gesture-recognition
+git clone https://github.com/yourusername/hand-gesture-control.git
+cd hand-gesture-control
