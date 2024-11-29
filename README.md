@@ -1,6 +1,6 @@
 # Hand Gesture Control: Real-Time Mouse and Scroll Controller
 
-![Gesture UI Mapping](images/gesture_ui_mapping.png)
+![Gesture UI Mapping](images/gestures.png)
 
 ## Table of Contents
 
