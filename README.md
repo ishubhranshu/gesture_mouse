@@ -30,7 +30,7 @@ Welcome to **Hand Gesture Control**, a real-time hand gesture recognition system
 
 ## Demo
 
-![Demo GIF](images/demo.mp4)
+![Demo GIF](images/demo.gif)
 
 *Figure: Demonstration of hand gestures controlling the mouse and scrolling actions.*
 
