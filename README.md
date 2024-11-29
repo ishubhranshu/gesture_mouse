@@ -32,18 +32,6 @@ Welcome to **Hand Gesture Control**, a real-time hand gesture recognition system
 
 *Figure: Demonstration of hand gestures controlling the mouse and scrolling actions.*
 
-## Files Description
-
-### record_dataset.ipynb
-- Captures hand gestures in real-time using a webcam and MediaPipe Hands, identifying and normalizing 21 key landmarks for gesture classification.
-- Users assign gestures to specific classes (0–4) using keyboard inputs (e.g., pressing "1" for Class 0). The program collects up to 1000 samples per class.
-- Saves all collected data to a CSV file, either creating a new file or appending to an existing one to enable incremental data collection.
-
-### train_infer.ipynb
-- Loads a CSV dataset containing hand gesture landmarks and their corresponding classes, splits the data into training and testing sets, and scales features using a StandardScaler.
-- A neural network with two dense hidden layers and dropout is trained for gesture classification. The best model is saved using checkpoints and as a final .h5 file.
-- The trained model is used to predict gestures in real-time via webcam feed, with gestures mapped to specific actions like mouse movement, clicks, and scrolling.
-
 ## Installation
 
 ### Prerequisites
@@ -56,3 +44,16 @@ Welcome to **Hand Gesture Control**, a real-time hand gesture recognition system
 ```bash
 git clone https://github.com/yourusername/hand-gesture-control.git
 cd hand-gesture-control
+```
+
+## Files Description
+
+### record_dataset.ipynb
+- Captures hand gestures in real-time using a webcam and MediaPipe Hands, identifying and normalizing 21 key landmarks for gesture classification.
+- Users assign gestures to specific classes (0–4) using keyboard inputs (e.g., pressing "1" for Class 0). The program collects up to 1000 samples per class.
+- Saves all collected data to a CSV file, either creating a new file or appending to an existing one to enable incremental data collection.
+
+### train_infer.ipynb
+- Loads a CSV dataset containing hand gesture landmarks and their corresponding classes, splits the data into training and testing sets, and scales features using a StandardScaler.
+- A neural network with two dense hidden layers and dropout is trained for gesture classification. The best model is saved using checkpoints and as a final .h5 file.
+- The trained model is used to predict gestures in real-time via webcam feed, with gestures mapped to specific actions like mouse movement, clicks, and scrolling.
