@@ -42,7 +42,7 @@ Welcome to **Hand Gesture Control**, a real-time hand gesture recognition system
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hand-gesture-control.git
+git clone https://github.com/ishubhranshu/hand_gesture_control.git
 cd hand-gesture-control
 ```
 
