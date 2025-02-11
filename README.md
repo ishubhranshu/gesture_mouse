@@ -24,7 +24,6 @@ Welcome to **Hand Gesture Control**, a real-time hand gesture recognition system
 - **Smooth Scrolling**: Scroll up and down smoothly using designated gestures.
 - **Task View Activation**: Trigger system-level actions like opening Task View with gestures.
 - **Visual Feedback**: Displays predicted gestures and current actions on the video feed for better user awareness.
-- **Cross-Platform Support**: Compatible with Windows, macOS, and Linux operating systems.
 
 ## Demo
 
